@@ -1,7 +1,7 @@
 // 수정: src/main/java/com/example/board/security/CustomAuthenticationEntryPoint.java
 package com.example.board.security;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+import tools.jackson.databind.json.JsonMapper;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -23,7 +23,7 @@ import java.util.Map;
 @Component
 public class CustomAuthenticationEntryPoint implements AuthenticationEntryPoint {
 
-    private final ObjectMapper objectMapper = new ObjectMapper();
+    private final JsonMapper objectMapper = JsonMapper.builder().build();
 
     @Override
     public void commence(HttpServletRequest request,
