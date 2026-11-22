@@ -1,15 +1,14 @@
 # 수정: src/main/resources/application.yml
 spring:
   # 기존 설정...
+  web:
+    error:
+      whitelabel:
+        enabled: false  # Whitelabel 에러 페이지 비활성화
+      path: /error      # 에러 처리 경로
   servlet:
     multipart:
       enabled: true
       max-file-size: 10MB        # 파일 하나 최대 크기
       max-request-size: 50MB     # 전체 요청 최대 크기
       resolve-lazily: true       # multipart/form-data CSRF 처리
-
-server:
-  error:
-    whitelabel:
-      enabled: false  # Whitelabel 에러 페이지 비활성화
-    path: /error      # 에러 처리 경로
