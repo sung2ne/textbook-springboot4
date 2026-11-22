@@ -1,14 +1,14 @@
-# 소설처럼 읽는 스프링부트 3
+# 실전 스프링부트 4
 
-> iBetter Books 교재: https://text.ibetter.kr/springboot3
+> iBetter Books 교재: https://text.ibetter.kr/springboot4
 
-Spring Boot 3로 게시판을 만들어가는 실습 중심 교재입니다. 각 챕터별 브랜치를 제공하므로, 원하는 시점의 완성된 코드를 바로 받아 실행할 수 있습니다.
+Spring Boot 4로 게시판을 만들어가는 실습 중심 교재입니다. 각 챕터별 브랜치를 제공하므로, 원하는 시점의 완성된 코드를 바로 받아 실행할 수 있습니다.
 
 ## 기술 스택
 
 | 항목 | 버전/설명 |
 |------|-----------| 
-| Spring Boot | 3.5.11 |
+| Spring Boot | 4.2.0 |
 | Java | 17 |
 | Gradle | Groovy DSL |
 | Spring Data JPA | (Spring Boot 관리) |
@@ -26,8 +26,8 @@ Spring Boot 3로 게시판을 만들어가는 실습 중심 교재입니다. 각
 ### 저장소 클론
 
 ```bash
-git clone https://github.com/sung2ne/textbook-springboot3.git
-cd textbook-springboot3
+git clone https://github.com/sung2ne/textbook-springboot4.git
+cd textbook-springboot4
 ```
 
 ### 원하는 챕터로 이동
